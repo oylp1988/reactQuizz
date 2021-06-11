@@ -1,0 +1,17 @@
+{
+  "name": "reactQuizz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config ./config/webpack.common.config.js",
+    "prod": "webpack --config ./config/webpack.prod.config.js",
+    "dev": "webpack --config ./config/webpack.dev.config.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}

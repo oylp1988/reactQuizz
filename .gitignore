@@ -1,0 +1,13 @@
+.DS_Store
+dist/
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+app/dist/index.html
+app/dist/main.js
+app/dist/renderer.js
+app/dist/styles.css
+builds/*
+dist/*
+node_modules/
