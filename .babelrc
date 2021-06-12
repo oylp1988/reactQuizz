@@ -1,0 +1,8 @@
+{
+  "presets": [// presets the env and react preset which is the set of plugins
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+  ]
+}
