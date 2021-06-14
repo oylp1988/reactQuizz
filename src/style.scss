@@ -17,9 +17,10 @@
   }
 }
 .FunctionBar {
-  table {
-    width: 250px;
-  }
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 .ColumnBar {
   table {

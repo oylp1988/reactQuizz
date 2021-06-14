@@ -71,7 +71,7 @@ const MainFrame = (props) => {
         </tr>
         <tr>
           <td>
-            <FunctionBar findItems={findItems} addItem = {addItem} />
+            <FunctionBar list = {state.list} findItems={findItems} addItem = {addItem} />
           </td>
           <td>
             <ColumnBar title='COLUMN 1' searchedList = {state.searchedList} deleteItem = {deleteItem} list={state.list.filter(item => item.column === '1')} />

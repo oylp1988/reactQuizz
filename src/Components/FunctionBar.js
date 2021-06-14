@@ -8,32 +8,12 @@ const FunctionBar = (props) => {
   // 限流
   return (
     <div className='FunctionBar'>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <input value={itemName} placeholder='ENTER ITEM' onChange={(event) => {
-                setItemName(event.target.value)
-              }} />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <SelectInput onChange={(value) => setColumnName(value)} />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button className='addButton' type='button' onClick = {() => props.addItem({label: itemName, column: columnName})}>ADD ITEM</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <SearchInput findItems={props.findItems}></SearchInput>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <input value={itemName} placeholder='ENTER ITEM' onChange={(event) => {
+        setItemName(event.target.value)
+      }} />
+      <SelectInput onChange={(value) => setColumnName(value)} />
+      <button className='addButton' type='button' onClick={() => props.addItem({ label: itemName, column: columnName })}>ADD ITEM</button>
+      <SearchInput list={props.list} findItems={props.findItems}></SearchInput>
     </div>
   )
 }
