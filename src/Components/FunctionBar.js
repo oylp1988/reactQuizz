@@ -7,7 +7,7 @@ const FunctionBar = (props) => {
   const [columnName, setColumnName] = useState(0)
   // 限流
   return (
-    <div>
+    <div className='FunctionBar'>
       <table>
         <tbody>
           <tr>
@@ -24,7 +24,7 @@ const FunctionBar = (props) => {
           </tr>
           <tr>
             <td>
-              <button type='button' onClick = {() => props.addItem({label: itemName, column: columnName})}>ADD ITEM</button>
+              <button className='addButton' type='button' onClick = {() => props.addItem({label: itemName, column: columnName})}>ADD ITEM</button>
             </td>
           </tr>
           <tr>

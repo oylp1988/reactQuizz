@@ -64,7 +64,7 @@ const MainFrame = (props) => {
 
 
   return (
-    <table>
+    <table className='MainFrame'>
       <tbody>
         <tr>
           <th colSpan='3'>Add AN ITEM</th>

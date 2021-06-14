@@ -7,7 +7,7 @@ const RowItem = (props) => {
       <tr>
         <td>
           <div className={props.searched ? 'searched' : 'unsearched'}>
-            {props.label}
+            <div>{props.label}</div>
             <button value={props.id}>remove</button>
           </div>
         </td>

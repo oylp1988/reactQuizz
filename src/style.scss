@@ -1,3 +1,36 @@
 .searched {
   background-color: aquamarine;
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.unsearched {
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.MainFrame {
+  td {
+    vertical-align: top;
+  }
+}
+.FunctionBar {
+  table {
+    width: 250px;
+  }
+}
+.ColumnBar {
+  table {
+    width: 250px;
+  }
+}
+.ColumnBar {
+  table {
+    width: 250px;
+  }
+}
+.addButton {
+  margin-top: 50px;
 }

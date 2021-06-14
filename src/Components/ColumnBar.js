@@ -11,7 +11,7 @@ const ColumnBar = (props) => {
     } 
   }
   return (
-    <div>
+    <div className='ColumnBar'>
       <table onClick={onClick}>
         <tbody>
         <tr>
